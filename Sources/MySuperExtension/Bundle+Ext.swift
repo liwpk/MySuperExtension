@@ -7,7 +7,7 @@
 
 import UIKit
 
-extension Bundle {
+public extension Bundle {
     /// 版本号
     /// returns the value accessed with the key `CFBundleShortVersionString`.
     var versionNumber: String {
